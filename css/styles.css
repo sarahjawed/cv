@@ -1,0 +1,71 @@
+/*This section consists of all the tags style*/
+body {
+  background-color: #EAF6F6;
+  font-family: sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  padding-right: 25px;
+}
+
+h1, h3 {
+  color: #66BFBF;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+/* This section consists of all the id style*/
+#name {
+  text-decoration: none;
+}
+
+/* This section consists of all the class style.  */
+.details {
+  width: 100%;
+  line-height: 3;
+}
+
+.details tr:hover {
+  color: #66BFBF;
+}
+
+.training {
+  width: 100%;
+  text-align: center;
+}
+
+.contactform {
+  line-height: 2;
+}
+
+.contact-details {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 24px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
